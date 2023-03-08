@@ -1,0 +1,96 @@
+/* Selector Universal */
+
+/* 
+
+* {
+
+    padding: 0;
+    margin: 0;
+} 
+*/
+
+
+/* Selector Tipo */
+
+
+/* 
+main {
+    border: 2px dotted peachpuff;
+}
+ */
+
+ /* Selector tipo id */
+
+
+/*  #info {
+    border-bottom: 5px groove rebeccapurple;
+ }
+ */
+
+ /* Selector de clase */
+
+ 
+ /* .titulo {
+    border: 1px solid palevioletred;
+    box-shadow: 10px 10px 5px rgba(183, 255, 28, 0.807);
+    color: rgb(123, 36, 102);
+ } */
+
+
+ /* Selector de clase de un tag en particular */
+ /* h3.titulo {
+    font-size: 50px;
+ } */
+
+
+ /* SELECTOR POR ATRIBUTO (No importa el valor que tenga el atributo)*/
+ /* p[lang="en"] {
+    background-color: cornflowerblue;
+ }
+ */
+
+
+ /* Selector por atributo buscando un texto al final */
+
+ 
+/*  a[href$="mx"] {
+    background-color: aquamarine;
+ }
+ a[href^="ftp"]{
+    background-color: li;
+ } 
+ a[href*="pagina"]{
+    font-size: 30px;
+ }
+ 
+ [class~="round"] {
+    border: 3px solid lightcoral;
+    border-radius:10px;
+ }
+ */
+
+ /* SELECTORES DE LISTA */
+/* 
+ #a, article.titulo, blockquote [lang] {
+    color: lightsteelblue;
+ }
+ */
+
+ /* SELECTOR DESCENDIENTES */
+ /* main p{
+    border: 3px solid royalblue;
+ } */
+
+ /* SELECTOR HIJO DIRECTO */
+
+
+
+ main > p {
+    border: 8px solid blueviolet;
+ }
+
+
+
+ h3 + p {
+    background-color: aquamarine;
+ }
